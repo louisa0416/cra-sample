@@ -1,0 +1,66 @@
+.contact {
+  .container {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+  }
+
+  .service {
+    width: 450px;
+
+    .title {
+      color: #222;
+      font-size: 60px;
+      line-height: 72px;
+      font-family: var(--font-family-special);
+      text-align: center;
+    }
+
+    .description {
+      color: #222;
+      font-size: 24px;
+      line-height: 30px;
+      font-family: var(--font-family-ragular);
+      text-align: center;
+    }
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+
+    input,
+    textarea {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 14px 12px;
+      border: 1px solid #b9b9b9;
+      border-radius: 8px;
+      box-sizing: border-box;
+    }
+
+    .send-message-button {
+      margin: 20px 0;
+      border-radius: 30px;
+      border: none;
+      padding: 11px 20px;
+      background-color: var(--main-color);
+      font-size: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-width: 160px;
+      min-height: 60px;
+      color: white;
+      cursor: pointer;
+      width: 60px;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}

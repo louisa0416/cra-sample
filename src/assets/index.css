@@ -18,7 +18,7 @@ body {
   --secondary-color-3: #ec407a;
   --font-family-special: "Special-Font", -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
+    "Droid Sans", "Helvetica Neue", sans-serif,"NotoSans-Bold";
   --font-size-body-large: 18px;
   --font-size-body-medium: 16px;
   --font-size-body-normal: 15px;

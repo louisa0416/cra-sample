@@ -5,6 +5,7 @@ import Main from "./components/Main/Main";
 import Activity from "./components/Activity/Activity";
 import Policy from "./components/Policy/Policy";
 import Donate from "./components/Donate/Donate";
+import Contact from "./components/Contact/Contact";
 
 import "./assets/App.css";
 
@@ -21,6 +22,7 @@ function App() {
       <Activity />
       <Policy />
       <Donate />
+      <Contact />
     </div>
   );
 }
