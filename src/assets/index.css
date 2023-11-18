@@ -9,9 +9,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   border: 5px solid var(--main-color);
-  --background-color: #e3e3e3;
+ 
   box-sizing: border-box;
-
+  --bs-body-bg: #e3e3e3;
   --main-color: #4527a0;
   --secondary-color-1: #26a69a;
   --secondary-color-2: #ffb300;

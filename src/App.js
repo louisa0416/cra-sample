@@ -7,6 +7,7 @@ import Activity from "./components/Activity/Activity";
 import "./assets/App.css";
 
 import "./assets/all.scss";
+import "./assets/index.css";
 
 function App() {
 

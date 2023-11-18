@@ -1,11 +1,120 @@
-.activity{
+.activity {
+  .title {
+    margin: 30px auto;
+    color: #222222;
+    font-size: 60px;
+    line-height: 72px;
+    font-family: var(--font-family-special);
+    text-align: center;
+  }
 
-    .title {
-        margin: 30px auto;
-        color: #222222;
-        font-size: 60px;
-        line-height: 72px;
-        font-family: var(--font-family-special);
+  .wrapper-activity {
+    display: flex;
+    justify-content: space-between;
+
+    .activity-item {
+        // border: 1px solid red;
+      position: relative;
+      height: 100%;
+      width: 483px;
+      text-align: left;
+      border-radius: 8px;
+      background: #ffffff;
+
+      &-cover {
+        border-radius: 8px 8px 0 0;
       }
 
+      &-time {
+        width: 75px;
+        background-color: var(--secondary-color-1);
+        border-radius: 0 8px 0 0;
+        color: #ffffff;
+        font-family: var(--font-family-special);
+        text-align: center;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+      }
+
+      &-title {
+        margin: 10px;
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: 700;
+      }
+
+      &-description {
+        margin: 10px;
+        font-size: 14px;
+        line-height: 24px;
+      }
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      .activity-item-time {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 75px;
+        height: 75px;
+        color: #ffffff;
+        font-weight: 700;
+        background: var(--secondary-color-1);
+
+        .date {
+          margin: 0;
+          font-size: 36px;
+          line-height: 36px;
+        }
+
+        .month {
+          margin: 0;
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    
+    }
+
+    .activity-item-small {
+        width: 615px;
+        height: 232;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 8px 0 0 8px;
+        margin-bottom: 10px;
+        &-cover {
+            width: 276px;
+            height: 100%;
+            border-radius: 8px 0 0 8px;
+          }
+          
+          
+        &-time {
+            margin: 10px;
+            width: 100px;
+            background-color: var(--secondary-color-1);
+            border-radius: 8px 0 8px 0;
+            color: #ffffff;
+            font-family: var(--font-family-special);
+            text-align: center;
+       
+        }
+        
+        &:hover {
+          opacity: 0.8;
+        }
+
+    
+    }
+    
+  }
 }
