@@ -2,6 +2,7 @@
 ////外部套件
 import NavBar from "./components/Navbar/Navbar";
 import Main from "./components/Main/Main";
+import Activity from "./components/Activity/Activity";
 
 import "./assets/App.css";
 
@@ -14,6 +15,7 @@ function App() {
     <div classNameName="App">
       <NavBar />
       <Main />
+      <Activity />
     </div>
   );
 }
