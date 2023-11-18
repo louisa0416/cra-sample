@@ -6,6 +6,7 @@ import Activity from "./components/Activity/Activity";
 import Policy from "./components/Policy/Policy";
 import Donate from "./components/Donate/Donate";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 import "./assets/App.css";
 
@@ -23,6 +24,7 @@ function App() {
       <Policy />
       <Donate />
       <Contact />
+      <Footer />
     </div>
   );
 }
