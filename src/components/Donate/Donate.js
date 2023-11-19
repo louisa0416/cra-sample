@@ -2,7 +2,7 @@ import iconDonation from "../../assets/images/donation.png";
 import "./donate.scss";
 const Donate = ()=>{
     return(
-        <div className="donate">
+        <div className="donate" id="donate">
             <div className="container">
                 <div className="donate-info">
                     <p className="title">小額捐款</p>

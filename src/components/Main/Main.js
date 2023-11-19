@@ -3,7 +3,7 @@ import candidateImg from "../../assets/images/candidateImg.png";
 import sloganEng from "../../assets/images/slogan-eng.png";
 const Main = () => {
   return (
-    <div className="main">
+    <div className="main" id="main">
       <div className="container">
         <div className="main-section">
           <section>

@@ -3,7 +3,7 @@ import "./Policy.scss"
 const Policy = ()=>{
 
     return(
-        <div className="policy">
+        <div className="policy" id="policy">
             <div className="container">
                 <p className="title"> 政策議題</p>
                 <div className="wrapper-policy">

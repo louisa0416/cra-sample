@@ -5,7 +5,7 @@ import activity3 from "../../assets/images/activity-3.png";
 const Activity =()=>{
 
     return(
-        <div className="activity">
+        <div className="activity" id="activity">
             <div className="container">
                 <p className="title">最新活動</p> 
                 <div className="wrapper-activity">
